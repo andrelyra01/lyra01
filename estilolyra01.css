@@ -1,0 +1,149 @@
+body{  min-width:auto; 
+    max-width:auto;
+    margin:auto;
+    margin: auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(168, 168, 166);
+}
+header{
+    padding:1px;
+        background-color: #0e0d0d;
+        color: white;
+        text-align: center;
+
+}
+
+.ajuda> a{
+    margin: 10px;
+    color: white;
+}
+.ajuda{color: white;
+    margin-top:40px;
+    text-align:right;
+}
+h1{font-family: italic;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    margin: 40px;
+    padding: 80px;
+}
+img{
+    right:60px;
+        width:50px;
+        height:60px;
+        top:70px;
+        position: relative;
+    }
+
+
+.men{
+    margin: 20px;
+    text-decoration: none;
+     padding: 20px;
+    color: black;
+}
+.woman{text-decoration: none;
+    padding: 20px;
+    color: black;
+    margin: 30px;
+}
+.kids{text-decoration: none;
+    padding: 20px;
+    color: black;
+    margin: 40px;
+
+}
+.sale{
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    margin: 0px;
+}
+.astripe{text-decoration: none;
+    padding: 20px;
+    color: black;
+    margin: 40px;
+}
+.masculino{padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+}
+
+.mulher{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+}
+.crianca{
+    padding: 10px;
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+}
+.popular{
+    font-size: 30px;
+    font-family: italic;
+    text-align: center;
+}
+a.back{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+ul> a{
+    text-align: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    border: 2px solid black;
+    color: #0e0d0d;
+}
+.impossivel{
+    margin: 40px;
+    padding: 10px;
+text-decoration: none;
+}
+.novas{
+    margin: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+.datas{ margin: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+.Lojas{
+    margin: 40px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li{
+     padding: 40px;
+    color: black;
+    font-size: 20px;
+    margin: 20px;
+}
+.adicione{font-style: italic;
+    padding: 40px;
+    font-family:italic;
+    color: #0e0d0d;
+    font-size:25px;
+}
+footer> a{
+    color: #0e0d0d;
+}
+footer{
+    color: #0e0d0d;
+    text-align: center;
+    background-color: rgb(117, 115, 115);
+    font-size: 20px;
+    padding: 10px;
+    margin: 40px;
+}

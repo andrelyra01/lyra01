@@ -9,9 +9,10 @@ body{ background-position: center center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.conf{color: antiquewhite;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
+.conf{
+    color: rgb(20, 20, 20);
+    font-family:normal;
+    text-align:left;
 }
 
 .pesquise{
@@ -105,7 +106,7 @@ a.back{
 
 
 ul> a{
-    text-align: none;
+    text-align:center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
@@ -140,20 +141,19 @@ li{
     font-size: 20px;
     margin: 20px;
 }
-.novidades{color: rgb(243, 147, 51);
+.novidades{color: rgb(240, 235, 230);
     font-size: 40px;
     font-family:italic;
     text-align: center;
 }
 .adicione{text-align: center;
-    font-style: italic;
+    font-style: italic bold;
     padding:40px;
     font-family:italic;
-    color: #f0e5e5;
+    color: #d4d0d0;
     font-size:35px;
 }
-ul{
-
+ul{margin: auto;
     padding-top:10px;
 }
 footer> a{

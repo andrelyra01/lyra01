@@ -27,49 +27,68 @@
     </div>
 
     <header>
+        <header>
+            <h1></h1>
+            <i id="burguer"class="material-symbols-outlined" onclick="clickmenu()">menu </i>
+            <menu id="itens">
+                <ul>
+                    <li><a class="men" href="">Homen</a></li>
+                    <li><a class="woman"href="">Mulher</a></li>
+                    <li><a class="kids"href="">Criança</a></li>
+                    <li><a class="sale"href="">OFERTA</a></li>
+                    <li><a class="astripe"href="">3 Lista de Vida</a></li>
+                </ul>
+            </menu>
+        </header>
        
             <menu>
-                <a class="men" href="">Homen</a>
-                        <a class="woman"href="">Mulher</a>
-                        <a class="kids"href="">Criança</a>
-                        <a class="sale"href="">OFERTA</a>
-                        <a class="astripe"href="">3 Lista de Vida</a>
+             
             </menu>     
 
     </header>
-    <h1 class="conf">O CONFORTO QUE CONTINUA!</h1>
-    <p class="img"><img src="imagens01/icone.ico" alt="imagem de logotipo da adidas"></p>
-<main>
-    <ul class="shop" >
-        <li><a class="masculino" href="https://www.adidas.com/us/men-fleece">shop masculino</a></li>
-            <li><a class="mulher" href="https://www.adidas.com/us/women-fleece">shop Mulher</a></li>
-            <li><a class="crianca" href="https://www.adidas.com/us/kids-fleece">shop criança</a></li>
-        </ul>
-</main>
-    
-  
-<h2 class="popular">POPULAR AGORA</h2>
-<h1 class="novidades">Novidades: sapatos, roupas e muito mais</h1>
-
-
-    
-    
-
-    <p class="adicione">Adione alguma energia fresca à sua coleção com novos lançamentos da Adidas. Procure os tênis, roupas esportivas e acessórios mais recentes que você pode usar todos os tempos enquanto está treinando ou relaxando.</p>
-
-        <ul class="menu-nada">
-            <a class="impossivel" href="https://www.adidas.com/us/ultraboost">Nada é impossível</a>
-            <a class="novas" href="https://www.adidas.com/us/nmd">Novas chegadas</a>
-            <a class="datas" href="https://www.adidas.com/us/backpacks">Datas de lançamento dos mais vendidos</a>
-            <a class="Lojas" href="https://www.adidas.com/us/stan_smith">stan smith</a>
-
-        </ul>
+    <main>
+        <article>
+            <h1 class="conf">O CONFORTO QUE CONTINUA!</h1>
+            <p class="img"><img src="imagens01/icone.ico" alt="imagem de logotipo da adidas"></p>
+        
+            <ul class="shop" >
+                <li><a class="masculino" href="https://www.adidas.com/us/men-fleece">shop masculino</a></li>
+                    <li><a class="mulher" href="https://www.adidas.com/us/women-fleece">shop Mulher</a></li>
+                    <li><a class="crianca" href="https://www.adidas.com/us/kids-fleece">shop criança</a></li>
+                </ul>
+        </main>
+            
+          
+        <h2 class="popular">POPULAR AGORA</h2>
+        <h1 class="novidades">Novidades: sapatos, roupas e muito mais</h1>
+        
+        
+            
+            
+        
+            <p class="adicione">Adione alguma energia fresca à sua coleção com novos lançamentos da Adidas. Procure os tênis, roupas esportivas e acessórios mais recentes que você pode usar todos os tempos enquanto está treinando ou relaxando.</p>
+        
+                <ul class="menu-nada">
+                    <a class="impossivel" href="https://www.adidas.com/us/ultraboost">Nada é impossível</a>
+                    <a class="novas" href="https://www.adidas.com/us/nmd">Novas chegadas</a>
+                    <a class="datas" href="https://www.adidas.com/us/backpacks">Datas de lançamento dos mais vendidos</a>
+                    <a class="Lojas" href="https://www.adidas.com/us/stan_smith">stan smith</a>
+        
+                </ul>
+            
+        </article>
+    </main>
+    <script>
+        function clickmenu() {
+            if(itens.style.display =='block') {
+                itens.style.display = 'none'
+            }else{
+                itens.style.display ='block'
+            }
+        }
+    </script>
     
         <footer>Criado por <a href="https://github.com/andrelyra01">Andre lyra</a></footer>
-        <script>
-            function clickmenu() {
-                hamburguer.style.display='block'
-            }
-        </script>
+        
 </body>
 </html>

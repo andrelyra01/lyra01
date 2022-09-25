@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=320, initial-scale=1.0">
     <title>adidas</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="estilolyra01.css">
 <body>
     <header>
-        <p>Novas Remarcações: até 60% de Desconto</p>
+        <p class="remarcacoes">Novas Remarcações: até 60% de Desconto</p>
         <p class="ajuda"><a href="https://www.adidas.com/us/help">Ajuda</a>
             <a class="trocas" href="https://www.adidas.com/us/returns">Trocas e Devoluções</a>
             <a class="rastreador" href="https://www.adidas.com/us/order-tracker">Rastreador de pedidos</a>
@@ -23,26 +24,45 @@
              
           </nav>
     </div>
-    <h1 class="conf">O CONFORTO QUE CONTINUA!</h1>
+
+    <header>
+        <span id="burguer" class="material-symbols-outlined" onclickmenu="clickmenu()">
+            menu</span>
+        <nav id="menu-h">
+            <menu id="itens">
+               
+                    <menu class="hamburguer">
+                        <ul >
+                        <li><a class="men" href="">Homen</a></li>
+                        <li><a class="woman"href="">Mulher</a></li>
+                        <li><a class="kids"href="">Criança</a></li>
+                        <li><a class="sale"href="">OFERTA</a></li>
+                        <li><a class="astripe"href="">3 Lista de Vida</a></li>
+                    </ul>
+                    </menu>
+               
+            </menu>
+            
+        </nav>
+        <h1 class="conf">O CONFORTO QUE CONTINUA!</h1>
+    
+    </header>
+    <main>
 
         <h1>
             <p class="img"><img src="imagens01/icone.ico" alt="imagem de logotipo da adidas"></p>
-            <ul>
-                <a class="men" href="">Homen</a>
-            <a class="woman"href="">Mulher</a>
-            <a class="kids"href="">Criança</a>
-            <a class="sale"href="">OFERTA</a>
-            <a class="astripe"href="">3 Lista de Vida</a>
-            </ul>
-        </h1>
+
+         
        
 
-<div>
-    <ul>
+<div class="shop">
+    <ul >
     <li><a class="masculino" href="https://www.adidas.com/us/men-fleece">shop masculino</a></li>
         <li><a class="mulher" href="https://www.adidas.com/us/women-fleece">shop Mulher</a></li>
         <li><a class="crianca" href="https://www.adidas.com/us/kids-fleece">shop criança</a></li>
     </ul>
+
+   
     <h2 class="popular">POPULAR AGORA</h2>
   
 </div>
@@ -60,10 +80,13 @@
             <a class="Lojas" href="https://www.adidas.com/us/stan_smith">stan smith</a>
 
         </ul>
-
-            <footer>Criado por <a href="https://github.com/andrelyra01">Andre lyra</a></footer>
-
-
-
+    
+        <footer>Criado por <a href="https://github.com/andrelyra01">Andre lyra</a></footer>
+    </main>
+        <script>
+            function clickmenu() {
+                hamburguer.style.display='block'
+            }
+        </script>
 </body>
 </html>

@@ -1,7 +1,16 @@
 @charset "utf-8";
-body{ background-position: center center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{ 
+    background-position: center center;
     background-size: cover;
-    background-image: url(imagens01/fundoadi.jpg);
+   background-color: #9b9696;
     background-repeat: no-repeat;
      min-width:10px; 
     max-width:auto;
@@ -9,53 +18,116 @@ body{ background-position: center center;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.conf{
-    color: rgb(20, 20, 20);
-    font-family:normal;
-    text-align:left;
+#menu-h{
+    display: none;
+}
+span#burguer{color: white;
+    background-color: #0e0d0d;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+span#burguer:hover{cursor: pointer;
+    background-color: white;
+    color: black;
+
+}
+.shop{margin: 40px;
+   text-align:auto;
 }
 
+.remarcacoes{
+    margin:auto;
+    padding: 10px;
+    background-color: #0e0d0d;
+}
+
+#menu-h ul li{
+    display: inline-block;
+
+}
+#menu-h ul li a:hover{
+    background-color: rgba(191, 191, 196, 0.993);
+    transition:.4s;
+}
+#menu-h ul li a{
+    color: rgb(248, 242, 242);
+    padding:20px;
+    display:inline-block ;
+    text-decoration: none;
+    display: inline;
+}
+#menu-h ul{
+    list-style-type: none;
+    padding: 20px;
+    background-color: #131111;
+}
+#menu-h ul li{
+    display: inline;
+}
+
+
+header{
+  text-align: center;
+}
+
+
+#menu-h> ul> a{
+    display:none;
+    padding:20px;
+    text-decoration: none;
+    background-color: #d4d0d0;
+    border-top: 2px solid rgb(206, 198, 198);
+}
 .pesquise{
     padding: 10px;
     text-align:right;
 }
 header{
-    padding:1px;
-        background-color: #050505;
+    padding:10px;
         color: white;
         text-align: center;
 
+}
+.conf{
+    margin:40px;
+    color: rgb(20, 20, 20);
+    font-family:normal;
+    text-align:center;
 }
 .ajuda> a{
     margin: 10px;
     color: white;
 }
+
 .ajuda{color: white;
-    margin-top:40px;
+    margin-top:10px;
     text-align:right;
 }
-
-
-h1{ 
-    margin: 40px;
-    padding: 80px;
+.novidades{
+    text-align: center;
 }
-img{
-    right:60px;
-        width:50px;
-        height:60px;
-        top:90px;
-        position: relative;
-    }
 
+ h1{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin:50px;
+    padding:50px;
+}
 
 .men{
     margin: 20px;
     text-decoration: none;
      padding: 20px;
-    color: black;
+    color: rgb(243, 239, 239);
 }
-.woman{text-decoration: none;
+.woman{
+    text-decoration: none;
     padding: 20px;
     color: black;
     margin: 30px;
@@ -70,38 +142,43 @@ img{
     text-decoration: none;
     padding: 20px;
     color: black;
-    margin: 0px;
+    margin: 20px;
 }
-.astripe{text-decoration: none;
+.astripe{
+    text-decoration: none;
     padding: 20px;
     color: black;
-    margin: 40px;
+    margin: 10px;
 }
-.masculino{padding: 10px;
+.masculino{
+    color: #0e0d0d;
+    display: block;
+    padding:30px;
     text-decoration: none;
-    border: 1px solid black;
-    color: black;
+  
 }
-
 .mulher{
-    padding: 10px;
+    color: #0e0d0d;
+    display: block;
+    padding:40px;
     text-decoration: none;
-    border: 1px solid black;
-    color: black;
+    
+    
 }
-.crianca{
-    padding: 10px;
+.crianca{color: #0e0d0d;
+    display: block;
+    padding:40px;
     text-decoration: none;
-    border: 1px solid black;
-    color: black;
+   
+   
 }
 .popular{color: rgb(15, 15, 15);
     font-size: 40px;
     font-family: italic;
     text-align: center;
 }
-a.back{
-    font-family: Arial, Helvetica, sans-serif;
+.img{ margin-inline-start: -23px;
+ 
 }
 
 
@@ -114,48 +191,49 @@ ul> a{
     color: #0e0d0d;
 }
 .impossivel{
-    color: bisque;
-    margin: 40px;
-    padding: 10px;
-text-decoration: none;
+    color: rgb(19, 18, 18);
+margin-right: 50px;
+    padding:10px;
+  
 }
-.novas{color: bisque;
-    margin: 40px;
+.novas{
+    color: rgb(20, 20, 20);
+    margin:50px;
     padding: 10px;
     text-decoration: none;
 }
-.datas{ color: bisque;
-    margin: 40px;
+.datas{ color: rgb(12, 12, 12);
+    margin: 50px;
     padding: 10px;
     text-decoration: none;
 }
-.Lojas{color: bisque;
-    margin: 40px;
+.Lojas{color: rgb(10, 10, 10);
+    margin: 10px;
     padding: 10px;
     text-decoration: none;
+}
+ul {
+    border: 1px 1px solid black;
 }
 
-li{
-     padding: 40px;
-    color: black;
-    font-size: 20px;
-    margin: 20px;
-}
-.novidades{color: rgb(240, 235, 230);
-    font-size: 40px;
-    font-family:italic;
-    text-align: center;
-}
+
 .adicione{text-align: center;
     font-style: italic bold;
     padding:40px;
     font-family:italic;
-    color: #d4d0d0;
+    color: #111111;
     font-size:35px;
 }
-ul{margin: auto;
-    padding-top:10px;
+p {
+   
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
+
+
 footer> a{
     color: #0e0d0d;
 }

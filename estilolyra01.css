@@ -8,109 +8,47 @@
     box-sizing: border-box;
 }
 body{ 
-    background-position: center center;
-    background-size: cover;
    background-color: #9b9696;
-    background-repeat: no-repeat;
-     min-width:10px; 
-    max-width:auto;
-    margin:auto;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
-#menu-h{
-    display: none;
+main{
+    display:inline-block;
 }
-span#burguer{color: white;
-    background-color: #0e0d0d;
-    display: block;
-    text-align: center;
-    padding: 10px;
-}
-span#burguer:hover{cursor: pointer;
-    background-color: white;
-    color: black;
-
-}
-.shop{margin: 40px;
-   text-align:auto;
-}
-
 .remarcacoes{
     margin:auto;
     padding: 10px;
     background-color: #0e0d0d;
 }
-
-#menu-h ul li{
-    display: inline-block;
-
-}
-#menu-h ul li a:hover{
-    background-color: rgba(191, 191, 196, 0.993);
-    transition:.4s;
-}
-#menu-h ul li a{
-    color: rgb(248, 242, 242);
-    padding:20px;
-    display:inline-block ;
-    text-decoration: none;
-    display: inline;
-}
-#menu-h ul{
-    list-style-type: none;
-    padding: 20px;
-    background-color: #131111;
-}
-#menu-h ul li{
-    display: inline;
-}
-
-
 header{
-  text-align: center;
-}
-
-
-#menu-h> ul> a{
-    display:none;
-    padding:20px;
-    text-decoration: none;
-    background-color: #d4d0d0;
-    border-top: 2px solid rgb(206, 198, 198);
-}
-.pesquise{
-    padding: 10px;
-    text-align:right;
-}
-header{
-    padding:10px;
+    padding:0px;
         color: white;
         text-align: center;
 
 }
-.conf{
-    margin:40px;
-    color: rgb(20, 20, 20);
-    font-family:normal;
-    text-align:center;
+header{
+    margin: auto;
 }
-.ajuda> a{
-    margin: 10px;
-    color: white;
-}
-
 .ajuda{color: white;
-    margin-top:10px;
+    margin-top:3px;
     text-align:right;
 }
-.novidades{
-    text-align: center;
+.ajuda> a{
+    margin:10px;
+    color: white;
+}menu a:hover{
+    transition-duration: 2s;
+    background-color: antiquewhite;
+}
+menu{
+    padding:20px;
+    margin:auto;
+    background-color:black;
 }
 
- h1{
+h1{
     display: block;
-    font-size: 2em;
+    font-size:40px;
     margin-block-start: 1.67em;
     margin-block-end: 1.67em;
     margin-inline-start: 0px;
@@ -120,34 +58,62 @@ header{
     padding:50px;
 }
 
+.img{ 
+    margin-inline-start:20px;
+}
+.shop{
+    font-size:20px;
+}
+
+
+.pesquise{
+    padding:0px;
+    text-align:right;
+}
+
+.conf{
+    margin:40px;
+    color: rgb(20, 20, 20);
+    font-family:normal;
+    text-align:center;
+}
+
+
+
+.novidades{padding:2em;
+    margin:2em;
+    text-align: center;
+}
+
+
 .men{
-    margin: 20px;
+    margin:20px;
     text-decoration: none;
      padding: 20px;
-    color: rgb(243, 239, 239);
+    color:white;
 }
 .woman{
     text-decoration: none;
     padding: 20px;
-    color: black;
+    color:white;
     margin: 30px;
 }
 .kids{text-decoration: none;
     padding: 20px;
-    color: black;
+    color:white;
     margin: 40px;
 
 }
 .sale{
     text-decoration: none;
     padding: 20px;
-    color: black;
+    color:white;
     margin: 20px;
 }
 .astripe{
     text-decoration: none;
     padding: 20px;
-    color: black;
+    color:white;
     margin: 10px;
 }
 .masculino{
@@ -177,19 +143,8 @@ header{
     font-family: italic;
     text-align: center;
 }
-.img{ margin-inline-start: -23px;
- 
-}
 
 
-ul> a{
-    text-align:center;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    border: 2px solid black;
-    color: #0e0d0d;
-}
 .impossivel{
     color: rgb(19, 18, 18);
 margin-right: 50px;
@@ -212,10 +167,6 @@ margin-right: 50px;
     padding: 10px;
     text-decoration: none;
 }
-ul {
-    border: 1px 1px solid black;
-}
-
 
 .adicione{text-align: center;
     font-style: italic bold;
@@ -224,15 +175,24 @@ ul {
     color: #111111;
     font-size:35px;
 }
-p {
-   
-    display: block;
-    margin-block-start: 1em;
+p {  margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
+    margin-inline-start: 140px;
     margin-inline-end: 0px;
+    display: block;
+  
 }
-
+ul> a{
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    border: 2px solid black;
+    color: #0e0d0d;
+}
+.menu-nada{
+    text-align: center;
+}
 
 footer> a{
     color: #0e0d0d;

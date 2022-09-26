@@ -5,14 +5,20 @@
     margin: 0;
     list-style-type: none;
     text-decoration: none;
+   
     }
 
     body,html{
-        
+        display: inline-block;
         background-color: lightgray;
     }
+    
+    .itens{
+       
+        list-style-type: none;
+    }
 main{
-    width: 90vw;
+    width:90vw;
     background-color: white;
     margin: auto;
     margin-top:10px;
@@ -22,7 +28,7 @@ main{
 
 article > p{
     text-align: justify;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-indent: 20px;
 } 
 .remarcacoes{
@@ -30,7 +36,7 @@ article > p{
     padding:10px;
     background-color: #0e0d0d;
 }
-header{
+header{margin:auto;
     padding:0px;
         color: white;
         text-align: center;
@@ -48,7 +54,8 @@ header{
     margin:10px;
     color: rgb(49, 48, 48);
 }
-i#burguer{margin-top:0px;
+i#burguer{
+    margin-top:0px;
     text-align:center ;
     color: white;
     background-color: rgb(39, 39, 39);
@@ -75,7 +82,7 @@ menu > ul > li > a:hover{
 }
 
 menu{ 
-  
+    display: inline block;
     padding:0px;
     
 }
@@ -83,23 +90,25 @@ menu{
 .img{ 
     margin-inline-start:20px;
 }
-.shop{
+
+.shop{font-family: Arial, Helvetica, sans-serif;
     font-size:20px;
 }
-
 
 .pesquise{
     padding:0px;
     text-align:right;
 }
 
-.conf{
-    margin:40px;
+.conf{padding: 40px;
+    margin:20px;
     color: rgb(20, 20, 20);
     font-family:normal;
     text-align:center;
 }
-
+article{
+    display:inline-block;
+}
 article > p{
     text-align: justify;
     margin-bottom: 10px;
@@ -164,7 +173,9 @@ article > p{
    
    
 }
-.popular{color: rgb(15, 15, 15);
+.popular{margin: 40px;
+    padding: 40px;
+    color: rgb(15, 15, 15);
     font-size: 40px;
     font-family: italic;
     text-align: center;
@@ -201,7 +212,8 @@ margin-right: 50px;
     color: #111111;
     font-size:35px;
 }
-p {  margin-block-start: 1em;
+p { 
+     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 140px;
     margin-inline-end: 0px;
@@ -209,22 +221,19 @@ p {  margin-block-start: 1em;
   
 }
 ul> a{
-    
+ align-items: center;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
+    margin: 40px;
     border: 2px solid black;
     color: #0e0d0d;
-}
-.menu-nada{ display: flex;
-    align-items: center;
-    text-align: center;
 }
 
 footer> a{
     color: #0e0d0d;
 }
-footer{border-radius:10px 10px 10px 10px;
+footer{
+    border-radius:10px 10px 10px 10px;
     box-shadow: 5px 5px 0px rgba(139, 139, 139, 0.89);
     color: #9b9696;
     text-align: center;

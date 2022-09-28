@@ -9,8 +9,8 @@
    
     }
 
-    body,html{margin: auto;
-        
+    body,html{
+        margin: auto;
         display: inline-block;
         background-color: lightgray;
     }
@@ -56,7 +56,8 @@ header{margin:auto;
     margin:10px;
     color: rgb(49, 48, 48);
 }
-i#burguer{border-radius:10px 10px 10px 10px;
+i#burguer{font-size: 20px;
+    border-radius:10px 10px 10px 10px;
     margin-top:0px;
     text-align:center ;
     color: white;
